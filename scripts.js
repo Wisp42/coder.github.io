@@ -147,6 +147,7 @@ let ASCII = function(d){
 	}
 	return(r)
 };
+let VI6415 = function(d){return(Base64(SHA1(d)).slice(0, 15))}
 // console.log(inputText)
 
 function inputListener(func_name){
